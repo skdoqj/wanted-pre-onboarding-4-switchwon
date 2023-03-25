@@ -79,13 +79,7 @@ const OrderListPage = () => {
           >
             Filter
           </Button>
-          <Button
-            type='link'
-            size='small'
-            onClick={() => {
-              close();
-            }}
-          >
+          <Button type='link' size='small' onClick={() => close()}>
             close
           </Button>
         </Space>
